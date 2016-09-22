@@ -7,7 +7,7 @@ div {
     padding: 100px;
     margin: auto;
     vertical-align: middle;
-    display: inline-block;
+    display: inline;
     clear: none;
 
 
@@ -39,7 +39,7 @@ div {
     width: 50px;
     border-radius: 100%;
     float: left;
-    display: inline-block;
+    display: inline;
 
 
 
@@ -52,7 +52,7 @@ div {
   width: 50px;
   border-radius: 100%;
   float: left;
-  display: inline-block;
+  display: inline;
   clear: left;
 
 
