@@ -23,11 +23,22 @@ div {
 
 #upperleft {
     background-color: #2e8b57;
-    border: 2px solid #98fb98;
+    border: 6px solid #98fb98;
     height: 100px;
     width: 100px;
     border-radius: 100%;
     float: left;
     display: inline block;
+
+}
+
+#bottomleft {
+  background-color: #2e8b57;
+  border: 6px solid #98fb98;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  float: left;
+  display: inline block;
 
 }
