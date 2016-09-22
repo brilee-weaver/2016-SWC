@@ -24,8 +24,8 @@ div {
 #upperleft {
     background-color: #2e8b57;
     border: 6px solid #98fb98;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     float: left;
     display: inline block;
@@ -35,8 +35,8 @@ div {
 #bottomleft {
   background-color: #2e8b57;
   border: 6px solid #98fb98;
-  height: 100px;
-  width: 100px;
+  height: 8px;
+  width: 80px;
   border-radius: 100%;
   float: left;
   display: inline block;
@@ -46,9 +46,21 @@ div {
 #upperright {
   background-color: #2e8b57;
   border: 6px solid #98fb98;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 100%;
   float: left;
   display: inline block;
+}
+
+
+#bottomright {
+ background-color: #2e8b57;
+  border: 6px solid #98fb98;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  float: left;
+  display: inline block;
+  
 }
