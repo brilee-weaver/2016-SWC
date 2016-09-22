@@ -1,8 +1,12 @@
+body {
+  background-color: #f5f5dc;
+}
+
 div {
     height: 40px;
     width: 200px;
-    background-color: #98fb98;
-    border: 10px solid #2e8b57;
+    background-color: #556b2f;
+    border: 10px solid #808000;
     border-radius: 100%;
     padding: 100px;
     margin: auto;
@@ -14,9 +18,12 @@ div {
 }
 
 .greeting {
-  color: white;
+  color: #f5f5dc;
   font-family: Cursive;
   font-size: 30px;
+  text-align: center;
+  margin: -20px;
+
 
 
 
@@ -27,7 +34,7 @@ div {
 }
 
 .title {
-    color: white;
+    color: #f5f5dc;
     font-family: Cursive;
     font-size: 24px;
     text-align: center;
@@ -36,8 +43,8 @@ div {
 }
 
 #upperleft {
-    background-color: #2e8b57;
-    border: 6px solid #98fb98;
+    background-color: #808000;
+    border: 6px solid #556b2f;
     height: 50px;
     width: 50px;
     border-radius: 100%;
@@ -50,8 +57,8 @@ div {
 }
 
 #bottomleft {
-  background-color: #2e8b57;
-  border: 6px solid #98fb98;
+  background-color: #808000;
+  border: 6px solid #556b2f;
   height: 50px;
   width: 50px;
   border-radius: 100%;
@@ -65,8 +72,8 @@ div {
 }
 
 #upperright {
-  background-color: #2e8b57;
-  border: 6px solid #98fb98;
+  background-color: #808000;
+  border: 6px solid #556b2f;
   height: 50px;
   width: 50px;
   border-radius: 100%;
@@ -80,8 +87,8 @@ div {
 
 
 #bottomright {
- background-color: #2e8b57;
-  border: 6px solid #98fb98;
+ background-color: #808000;
+  border: 6px solid #556b2f;
   height: 50px;
   width: 50px;
   border-radius: 100%;
