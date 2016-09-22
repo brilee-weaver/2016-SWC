@@ -52,6 +52,7 @@ div {
   border-radius: 100%;
   float: left;
   display: inline-block;
+  position: relative;
 
 
 }
