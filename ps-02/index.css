@@ -14,7 +14,8 @@ div {
     font-family: Cursive;
     font-size: 24px;
     text-align: center;
-    
+    margin: auto
+
 }
 
 #border {
@@ -23,6 +24,7 @@ div {
   background-color: #7b68ee;
   border-radius: 100%;
   border: 5px dashed #191970;
+  margin: auto;
 
 
 }
