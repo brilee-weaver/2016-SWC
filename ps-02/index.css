@@ -15,7 +15,7 @@ div {
 .greeting {
     color: #006400;
     font-family: monospace;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     margin: auto;
     vertical-align: middle;
@@ -65,7 +65,7 @@ div {
   border-radius: 100%;
   float: right;
   display: inline-block;
-  clear:left;
+
 
 }
 
