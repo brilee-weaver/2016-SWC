@@ -18,6 +18,16 @@ div {
     font-size: 50px;
     text-align: center;
     margin: auto;
+    vertical-align: middle;
+
+}
+
+.title {
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
 
 }
 
@@ -30,6 +40,8 @@ div {
     float: left;
     display: inline block;
 
+
+
 }
 
 #bottomleft {
@@ -41,6 +53,7 @@ div {
   float: left;
   display: inline block;
 
+
 }
 
 #upperright {
@@ -51,6 +64,7 @@ div {
   border-radius: 100%;
   float: left;
   display: inline block;
+
 }
 
 
@@ -62,5 +76,6 @@ div {
   border-radius: 100%;
   float: left;
   display: inline block;
+
 
 }
