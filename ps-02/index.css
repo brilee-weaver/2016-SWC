@@ -14,7 +14,7 @@ div {
 
 .greeting {
     color: #006400;
-    font-family: Serif;
+    font-family: monospace;
     font-size: 50px;
     text-align: center;
     margin: auto;
