@@ -4,3 +4,10 @@ h1 {
   color: #6b8e23;
   text-align: center;
 }
+
+img {
+    margin: auto;
+    border-radius: 100%;
+    border: 8px solid #556b2f;
+
+}
