@@ -5,4 +5,12 @@ div {
     border: 10px solid #2e8b57;
     border-radius: 100%;
 
+
+}
+
+.greeting {
+    color: #006400;
+    font-family: Courier;
+    font-size: 24px;
+    text-align: center;
 }
