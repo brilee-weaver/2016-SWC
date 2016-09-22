@@ -1,32 +1,35 @@
 div {
-    height: 200px;
+    height: 40px;
     width: 200px;
     background-color: #98fb98;
     border: 10px solid #2e8b57;
     border-radius: 100%;
     padding: 100px;
     margin: auto;
-    vertical-align: middle;
-    display: inline-block;
+
+
 
 
 
 }
 
 .greeting {
-    color: #006400;
-    font-family: Cursive;
-    font-size: 30px;
-    text-align: center;
-    margin: auto;
-    vertical-align: middle;
+  color: white;
+  font-family: Cursive;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+
+
+
+
 
 }
 
 .title {
     color: white;
     font-family: Cursive;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     vertical-align: middle;
 
@@ -39,7 +42,8 @@ div {
     width: 50px;
     border-radius: 100%;
     float: left;
-    display: inline;
+    display: inline-block;
+
 
 
 
@@ -52,8 +56,10 @@ div {
   width: 50px;
   border-radius: 100%;
   float: left;
-  display: inline;
+  display: inline-block;
   clear: left;
+  margin-left: 300px;
+  margin-top: -250px;
 
 
 }
@@ -66,7 +72,8 @@ div {
   border-radius: 100%;
   float: left;
   display: inline;
-  padding-left: 250px;
+  margin-left: 250px;
+  margin-top: -250px;
 
 
 }
@@ -78,10 +85,10 @@ div {
   height: 50px;
   width: 50px;
   border-radius: 100%;
-  float: left;
+  float: right;
   display: inline;
-  clear: right;
-  padding-left: 250px;
-
+  clear: both;
+  margin-left: 250px;
+  margin-top:-275px;
 
 }
