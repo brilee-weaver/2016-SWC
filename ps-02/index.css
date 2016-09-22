@@ -18,14 +18,3 @@ div {
     margin: auto;
 
 }
-
-#border {
-  height: 350px;
-  width: 350px;
-  background-color: #7b68ee;
-  border-radius: 100%;
-  border: 5px dashed #191970;
-  margin: auto;
-
-
-}
