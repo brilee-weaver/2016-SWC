@@ -7,8 +7,7 @@ div {
     padding: 100px;
     margin: auto;
     vertical-align: middle;
-    display: inline block;
-    position: absolute;
+    display: inline-block;
 
 
 }
@@ -39,7 +38,7 @@ div {
     width: 50px;
     border-radius: 100%;
     float: left;
-    display: inline block;
+    display: inline-block;
 
 
 
@@ -52,7 +51,7 @@ div {
   width: 50px;
   border-radius: 100%;
   float: left;
-  display: inline block;
+  display: inline-block;
 
 
 }
@@ -64,7 +63,7 @@ div {
   width: 50px;
   border-radius: 100%;
   float: left;
-  display: inline block;
+  display: inline-block;
 
 }
 
@@ -76,7 +75,7 @@ div {
   width: 50px;
   border-radius: 100%;
   float: left;
-  display: inline block;
+  display: inline-block;
 
 
 }
