@@ -35,7 +35,7 @@ div {
 #bottomleft {
   background-color: #2e8b57;
   border: 6px solid #98fb98;
-  height: 8px;
+  height: 80px;
   width: 80px;
   border-radius: 100%;
   float: left;
@@ -62,5 +62,5 @@ div {
   border-radius: 100%;
   float: left;
   display: inline block;
-  
+
 }
