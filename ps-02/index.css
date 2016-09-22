@@ -8,6 +8,7 @@ div {
     margin: auto;
     vertical-align: middle;
     display: inline block;
+    position: fixed;
 
 
 }
