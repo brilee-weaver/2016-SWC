@@ -65,6 +65,7 @@ div {
   border-radius: 100%;
   float: right;
   display: inline-block;
+  clear:left;
 
 }
 
