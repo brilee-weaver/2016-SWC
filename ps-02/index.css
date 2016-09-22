@@ -6,6 +6,8 @@ div {
     border-radius: 100%;
     padding: 100px;
     margin: auto;
+    vertical-align: middle;
+    display: inline block;
 
 
 }
@@ -16,5 +18,16 @@ div {
     font-size: 50px;
     text-align: center;
     margin: auto;
+
+}
+
+#upperleft {
+    background-color: #2e8b57;
+    border: 2px solid #98fb98;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+    display: inline block;
 
 }
