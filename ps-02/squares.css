@@ -19,21 +19,22 @@ body {
     border: 10px solid #c0c0c0;
     height: 60px;
     width: 60px;
-    margin: auto;
-    clear: left;
+    margin-left: 450px
+    margin-top: 450px;
+    clear: both;
 
 
 
 }
 
 #large {
-    background-color: #d3d3d3;
+    background-color: #000000;
     border: 20px solid #ffffff;
     height: 150px;
     width: 150px;
     float: right;
     clear: both;
-    
+
 
 
 
