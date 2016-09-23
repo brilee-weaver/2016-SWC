@@ -28,7 +28,7 @@ body {
   font-family: Serif;
   color: blue;
   font-size: 270px;
-  display: inline;
+  display: inline-block;
 
 
 
@@ -44,7 +44,7 @@ body {
     font-family: Arial;
     color: blue;
     font-size: 300px;
-    display: inline;
+    display: inline-block;
 
 
 }
