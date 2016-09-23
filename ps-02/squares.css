@@ -11,6 +11,8 @@ body {
     margin-top: 40px;
     margin-left: 40px;
     float: left;
+    display: inline-block;
+    z-index: 1;
 
 }
 
@@ -19,9 +21,10 @@ body {
     border: 10px solid #c0c0c0;
     height: 60px;
     width: 60px;
-    margin-left: 450px
-    margin-top: 450px;
+    margin: auto;
     clear: both;
+    display: inline-block;
+    z-index: 2;
 
 
 
@@ -34,11 +37,17 @@ body {
     width: 150px;
     float: right;
     clear: both;
+    display: inline-block;
+    z-index: 3;
 
 
 
+}
 
-
+p {
+  font-size: 48px;
+  font-family: Cursive;
+  color: #696969;
 
 
 }
