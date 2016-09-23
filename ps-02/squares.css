@@ -19,10 +19,11 @@ body {
 #medium {
     background-color: #808080;
     border: 10px solid #c0c0c0;
-    height: 60px;
-    width: 60px;
-    margin: auto;
-    clear: both;
+    height: 80px;
+    width: 80px;
+    margin-top: 150px;
+    margin-left: 150px;
+    clear: left;
     display: block;
     z-index: 2;
 
@@ -33,7 +34,7 @@ body {
 #large {
     background-color: #000000;
     border: 20px solid #ffffff;
-    height: 300px;
+    height: 220px;
     width: 300px;
     float: right;
     clear: left;
@@ -49,6 +50,7 @@ p {
   font-size: 48px;
   font-family: Cursive;
   color: #696969;
+  float: right;
 
 
 }
