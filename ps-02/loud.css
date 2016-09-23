@@ -7,11 +7,19 @@ body {
   width: 200px;
   background-color: #1e90ff;
   border: 10px dashed #00ffff;
-  
+  text-align: center;
+  font-family: Courier;
+
+
 
 }
 
 #O {
+  height: 400px;
+  width: 200px;
+  background-color: #7fffd4;
+  border: 10px solid #00008b;
+
 
 
 }
