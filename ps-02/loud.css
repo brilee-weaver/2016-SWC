@@ -41,6 +41,7 @@ body {
     font-family: Arial;
     color: blue;
     font-size: 300px;
+    display: inline-block;
 
 
 }
@@ -54,6 +55,7 @@ body {
   font-family: cursive;
   color: blue;
   font-size: 250px;
+  display: inline-block;
 
 
 
