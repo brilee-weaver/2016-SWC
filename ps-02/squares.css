@@ -2,3 +2,27 @@ body {
   background-color: #dcdcdc;
 
 }
+
+#small {
+    background-color: #000000;
+    border: 5px solid #696969;
+    height: 30px;
+    width: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+
+#medium {
+
+
+
+}
+
+#large {
+
+
+
+
+}
