@@ -9,7 +9,7 @@ body {
   border: 10px dashed #00ffff;
   text-align: center;
   font-family: Courier;
-  font-size: 60px;
+  font-size: 350px;
   color: blue;
 
 
@@ -24,13 +24,21 @@ body {
   text-align: center;
   font-family: Serif;
   color: blue;
-  font-size: 60px;
+  font-size: 350px;
 
 
 
 }
 
 #U {
+    height: 400px;
+    width: 200px;
+    background-color: #191970;
+    border: 10px dashed #e0ffff;
+    text-align: center;
+    font-family: Arial;
+    color: blue;
+    font-size: 350px;
 
 
 }
