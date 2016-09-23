@@ -28,8 +28,8 @@ body {
   font-family: Serif;
   color: blue;
   font-size: 270px;
-  display: inline-block;
-  margin-top: -30px;
+  display: inline;
+
 
 
 
@@ -44,7 +44,7 @@ body {
     font-family: Arial;
     color: blue;
     font-size: 300px;
-    display: inline-block;
+    display: inline;
 
 
 }
