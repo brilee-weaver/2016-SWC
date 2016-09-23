@@ -9,6 +9,8 @@ body {
   border: 10px dashed #00ffff;
   text-align: center;
   font-family: Courier;
+  font-size: 60px;
+  color: blue;
 
 
 
@@ -19,6 +21,10 @@ body {
   width: 200px;
   background-color: #7fffd4;
   border: 10px solid #00008b;
+  text-align: center;
+  font-family: Serif;
+  color: blue;
+  font-size: 60px;
 
 
 
