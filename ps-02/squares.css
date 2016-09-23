@@ -36,12 +36,10 @@ body {
     border: 20px solid #ffffff;
     height: 220px;
     width: 220px;
-    float: right;
-    clear: left;
     display: block;
     z-index: 3;
-    margin-top: 300px;
-    margin-left: 700px;
+    margin-top: 150px;
+    margin-left: 180px;
 
 
 
