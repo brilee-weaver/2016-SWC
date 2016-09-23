@@ -11,17 +11,28 @@ body {
     margin-top: 40px;
     margin-left: 40px;
     float: left;
-    
 
 }
 
 #medium {
+    background-color: #808080;
+    border: 10px solid #c0c0c0;
+    height: 60px;
+    width: 60px;
+    margin: auto;
 
 
 
 }
 
 #large {
+    background-color: #d3d3d3;
+    border: 20px solid #ffffff;
+    height: 150px;
+    width: 150px;
+    float: right;
+    
+
 
 
 
