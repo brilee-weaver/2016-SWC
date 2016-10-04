@@ -15,4 +15,5 @@
     width: auto;
     height: 50%;
     background-color: #e0ffff;
+    transform: rotate(30deg);
   }
