@@ -1,15 +1,18 @@
 div {
-  width: 400px;
-  height: 250px;
+  width: 48%;
+  height: 45%;
   border: 5px solid #d3d3d3;
   margin: auto;
   padding: 25px;
   background-color: #696969;
-  text-align: center;
+
 
 }
 
 p {
+  font-family: serif;
+  font-color: #dcdcdc;
+  font-size: 15%;
 
 }
 
