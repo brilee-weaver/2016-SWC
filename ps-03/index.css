@@ -20,10 +20,16 @@ div {
 
 #link {
   width: 32%;
-  height: 60%;
+  height: 45%;
   border: 5px solid #696969;
   margin: auto;
+  margin-top: 12%;
   padding: 25px;
   background-color: #d3d3d3;
   text-align: center
+}
+
+#second {
+
+
 }
