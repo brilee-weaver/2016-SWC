@@ -12,6 +12,7 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 8%;
+  font-size: 1.5em;
 }
 
 .link {
@@ -20,16 +21,19 @@ body {
   border: 1px dashed #a9a9a9;
   background-color: #f0ffff;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 9%;
   text-align: center;
   color: #afeeee;
+  font-size: 1em;
+  font-family:fantasy;
 }
 
 a:link {
     text-decoration: none;
+    color: #a9a9a9;
 }
 
 a:hover {
     font-weight: bold;
-    color:#a9a9a9;
+    color: #afeeee;
 }
