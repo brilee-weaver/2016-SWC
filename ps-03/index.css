@@ -1,6 +1,11 @@
-div {
+body {
+  background-color: #f0f8ff;
+
+}
+
+#set {
   width: 48%;
-  height: 60%;
+  height: 80%;
   border: 5px solid #d3d3d3;
   margin: auto;
   margin-top: 10%;
@@ -19,9 +24,9 @@ div {
 }
 
 #link {
-  width: 32%;
-  height: 45%;
-  border: 5px solid #696969;
+  width: 25%;
+  height: 32%;
+  border: 3px solid #696969;
   margin: auto;
   margin-top: 12%;
   padding: 25px;
@@ -29,7 +34,9 @@ div {
   text-align: center
 }
 
+
 #second {
+  text-decoration: none;
 
 
 }
