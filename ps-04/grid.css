@@ -11,7 +11,7 @@ body {
 }
 
 #myGrid {
-  border: 1px dashed #ffffff;
+  border: 1px solid #ffffff;
   background-color: #d3d3d3;
   margin-left: 20%;
   margin-top: 5%;
