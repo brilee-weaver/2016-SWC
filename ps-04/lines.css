@@ -18,3 +18,26 @@ body {
   margin-top: 5%;
   margin-left: 10%;
 }
+
+.back {
+  font-family: Gloria Hallelujah;
+  margin-top: 3%;
+  margin-left: 48%;
+  color: #c0c0c0;
+  font-size: .75em;
+  position: fixed;
+}
+
+a:link {
+  text-decoration: none;
+  color: #696969;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #000000;
+}
+
+a:visited {
+  color: #008B8B;
+}
