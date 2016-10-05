@@ -9,3 +9,12 @@ body {
   color: #c0c0c0;
   line-height: .2;
 }
+
+#lines {
+  border: 1px solid #F0F8FF;
+  background-color: #696969;
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
