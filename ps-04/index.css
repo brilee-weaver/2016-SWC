@@ -1,0 +1,42 @@
+body {
+    background-color: #d3d3d3;
+}
+
+.name {
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 8%;
+  width: 30%;
+  border: 1px solid #c0c0c0;
+  font-family: Amatic SC;
+  padding: 5%;
+  font-size: 1.75em;
+  color: #696969;
+  line-height: .3;
+}
+
+.solutions {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: Amatic SC;
+  line-height: .3;
+}
+
+.border {
+  font-family: Amatic SC;
+  font-size: 2em;
+  display: flex;
+  margin-left: 38%;
+  margin-top: 5%;
+  color:#696969;
+}
+
+a:link {
+  text-decoration: none;
+  color: #696969;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #000000;
+}
