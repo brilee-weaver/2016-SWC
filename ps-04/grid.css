@@ -13,9 +13,8 @@ body {
 #myGrid {
   border: 1px dashed #ffffff;
   background-color: #d3d3d3;
-  margin-left: 10%;
-  margin-top: 10%;
-  height: 40%;
-  width: 60%;
-  transform: rotate(45deg);
+  margin-left: 20%;
+  margin-top: 5%;
+  height: 30%;
+  width: 30%;
 }
