@@ -14,7 +14,7 @@ body {
   font-family:Amatic SC;
   font-size: 2em;
   display: flex;
-  margin-left: 38%;
+  margin-left: 40%;
   margin-top: 5%;
   color:#696969;
 }
@@ -23,17 +23,16 @@ body {
   font-family:Amatic SC;
   font-size: 2em;
   display: flex;
-  margin-left: 39%;
+  margin-left: 175%;
   margin-top: 5%;
   color:#696969;
-  display: flex;
 }
 
 .decorIII {
   font-family:Amatic SC;
   font-size: 2em;
   display: flex;
-  margin-left: 40%;
+  margin-left: 360%;
   margin-top: 5%;
   color:#696969;
 }
@@ -45,6 +44,8 @@ body {
   height: 30%;
   width: 20%;
   margin-top: 65%;
-  margin-left: 42%;
-  transform: rotate(60deg);
+  margin-left: 500%;
+  display: block;
+  float: right;
+  margin-right: 5%;
 }
