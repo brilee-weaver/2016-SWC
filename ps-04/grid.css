@@ -1,5 +1,6 @@
 body {
   background-color: #f5f5f5;
+  display: flex;
 }
 
 .heading {
@@ -21,8 +22,8 @@ body {
 
 .back {
   font-family: Gloria Hallelujah;
-  margin-top: 3%;
-  margin-left: 38%;
+  margin-top: 4%;
+  margin-left: 2%;
   color: #c0c0c0;
   font-size: .75em;
   position: fixed;
