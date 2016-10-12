@@ -5,6 +5,10 @@ var drawingPad = canvas.getContext('2d');
    drawingPad.fillStyle = "hsla(0,10%,10%,1)";
    drawingPad.fillRect(0, 0, 20, 20);
 
+
+  console.log(canvas);
+  console.log(drawingPad);
+
    var getColor = function(hue, saturation, lightness, alpha) {
      var colorString = "hsla(" +
        hue + ", "
@@ -15,7 +19,7 @@ var drawingPad = canvas.getContext('2d');
    };
 
    var drawSquare = function(x,y,size) {
-     drawingPad.fillRect(x * size, y * size, size , size);
+     drawingPad.fillRect(size, y * size, size , size);
      drawingPad.strokeStyle = getColor(0, 0, 100, 0.3);
      drawingPad.strokeRect(x * size, y * size, size, size);
    }
