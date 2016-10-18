@@ -19,15 +19,16 @@ var ctx = canvas.getContext('2d');
    };
 
    var drawSquare = function(x,y,size) {
-     drawingPad.fillRect(x * size, y * size, size , size);
-     drawingPad.strokeStyle = getColor(0, 0, 100, 0.3);
-     drawingPad.strokeRect(x * size, y * size, size, size);
+     ctx.fillRect(x * size, y * size, size , size);
+     ctx.strokeStyle = getColor(0, 0, 100, 0.3);
+     ctx.strokeRect(x * size, y * size, size, size);
    }
-   
-      for(var x = 0 ; x < numX; x++) {
-        for(var y = 0 ; y < numY; y++) {
-          randomLightness = Math.random() * 100;
-          drawingPad.fillStyle = getColor(0, 0, randomLightness, 0.5);
-          drawSquare(x,y,size);
-        }
-      }
+
+
+         for(var x = 0 ; x < numX; x++) {
+           for(var y = 0 ; y < numY; y++) {
+             randomLightness = Math.random() * 100;
+             ctx.fillStyle = getColor(0, 0, randomLightness, 0.5);
+             drawSquare(x,y,size);
+           }
+         }
