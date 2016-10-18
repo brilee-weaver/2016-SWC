@@ -1,4 +1,4 @@
-body{
+ body{
   width: 400px;
   margin-left: 5%;
   margin-top: 5%;
@@ -33,6 +33,7 @@ body{
 
 a:link {
   text-decoration: none;
+  font-color: #330033;
 }
 
 a:hover {
