@@ -12,12 +12,20 @@ var gridSize = 20;
 
 for (x = 0; x <= width; x = x + gridSize) {
   for (y = 0; y <= height; y = y + gridSize) {
-    context.fillStyle = "#330033";
+    context.fillStyle = "black";
     context.font = "15px Trirong";
     context.fillText('E', x, y);
   }
 }
 
+//*var getColor = function(hue, saturation, lightness, alpha) {
+  //*var colorString = "hsla(" +
+    //*hue + ", "
+    //*+ saturation + "%,"
+    //*+ lightness  + "%,"
+    //*+ alpha + ")";
+  //*return colorString;
+//*};
 
 //*function resizeText(multiplier) {
   //*if (document.canvas.style.fontSize == "") {
