@@ -1,0 +1,44 @@
+body{
+  width: 400px;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: #f8f8ff;
+}
+
+#name {
+  font-family: Trirong;
+  margin-left: 1%;
+  margin-top: 5.5%;
+  color: #330033;
+  font-size: 1.5em;
+}
+
+#ps {
+  font-family: Trirong;
+  margin-left: 1%;
+  margin-top: 5%;
+  line-height: .2;
+  font-size: .70em;
+  color: #330033;
+}
+
+.link {
+  font-family: Trirong;
+  margin-left: 10%;
+  margin-top: 10%;
+  line-height: .5em;
+  color: #330033;
+  font-size: .85em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #660033;
+}

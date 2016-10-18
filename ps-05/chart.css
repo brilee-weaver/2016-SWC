@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f8ff;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#chart {
+  font-family: Trirong;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: #330033;
+  font-size: 1.5em;
+  line-height: .4;
+}
+
+#ps {
+  font-family: Trirong;
+  margin-left: 2%;
+  margin-top: .1%;
+  font-size: .70em;
+  line-height: .4;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #660033;
+}
+
+#eyeChart {
+  background-color: #ffffff;
+  font-family: Trirong;
+}

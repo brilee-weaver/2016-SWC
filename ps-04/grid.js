@@ -19,7 +19,7 @@ var drawingPad = canvas.getContext('2d');
    };
 
    var drawSquare = function(x,y,size) {
-     drawingPad.fillRect(size, y * size, size , size);
+     drawingPad.fillRect(x * size, y * size, size , size);
      drawingPad.strokeStyle = getColor(0, 0, 100, 0.3);
      drawingPad.strokeRect(x * size, y * size, size, size);
    }
