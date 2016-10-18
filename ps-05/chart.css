@@ -20,6 +20,11 @@ body {
   font-size: .70em;
   line-height: .4;
 }
+
+#eyeChart {
+  border: 1px dashed #000000;
+}
+
 a:link {
   text-decoration: none;
 }

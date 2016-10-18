@@ -3,23 +3,17 @@ var context = canvas.getContext('2d');
 
 console.log(context);
 
-var width = x;
-var height = y;
+var width = 500;
+var height = 500;
 
-x = 0;
-y = 0;
+var x = 0;
+var y = 0;
+var gridSize = 20;
 
-for (x = 0; x <= 50; x++) {
-for (y = 0; y <= 50; y++) {
-    context.fillRect(x * 50, y * 50, 300, 300);
-    context.fillStyle(0,30%,50%,0);
+for (x = 0; x <= width; x = x + gridSize) {
+  for (y = 0; y <= height; y = y + gridSize) {
+    context.fillStyle = "#330033";
+    context.font = "15px Trirong";
+    context.fillText('E', x, y);
+  }
 }
-}
-
-var letter = "E";
-  context.fillStyle = "#330033";
-  context.font = "15px Trirong";
-  context.fillText("E",100,100);
-
-  context.moveTo(x+25,y+45);
-  context.stroke();
