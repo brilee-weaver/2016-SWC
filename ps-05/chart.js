@@ -3,7 +3,7 @@ var context = canvas.getContext('2d');
 
 console.log(context);
 
-var width = 500;
+var width = 400;
 var height = 500;
 
 var x = 0;
@@ -17,3 +17,13 @@ for (x = 0; x <= width; x = x + gridSize) {
     context.fillText('E', x, y);
   }
 }
+
+
+//*function resizeText(multiplier) {
+  //*if (document.canvas.style.fontSize == "") {
+    //*document.canvas.style.fontSize = "1.0em";
+  //*}
+  //*document.canvas.style.fontSize = parseFloat(document.canvas.style.fontSize) + (multiplier * 0.2) + "em";
+//*}
+
+//*function resizeText();

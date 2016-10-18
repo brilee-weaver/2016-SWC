@@ -19,9 +19,9 @@ var x = 0;
 var y = 0;
 
 function drawlines() {
-    for (var x = 0; x <= width; x = x) {
-      context.strokeStyle = getColor(x*20,30,10,1);
-      context.lineWidth = (x*2)/1000;
+    for (var x = 0; x <= 1500; x+=5) {
+      context.strokeStyle = getColor(width*20,30,10,1);
+      context.lineWidth = width/1000;
       context.moveTo(300, x+5);
       context.lineTo(x+6, 75);
 

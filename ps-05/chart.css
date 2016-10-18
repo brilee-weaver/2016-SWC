@@ -22,7 +22,8 @@ body {
 }
 
 #eyeChart {
-  border: 1px dashed #000000;
+  margin-top: 4%;
+  margin-left: 8%;
 }
 
 a:link {
