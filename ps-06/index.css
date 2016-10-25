@@ -1,0 +1,40 @@
+body {
+  width: 350px;
+  padding-left: 30px;
+}
+
+#name {
+  font-family: Mountains of Christmas;
+  margin-top: 20%;
+  margin-left: 15%;
+  font-size: 2em;
+
+}
+
+#ps {
+  font-family: Mountains of Christmas;
+  margin-left: 15%;
+  line-height: .3;
+}
+
+#monster {
+  font-family: Mountains of Christmas;
+  margin-left: 30%;
+  margin-top: 10%;
+  font-size: 1.2em;
+}
+
+a:link {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800000;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #800000;
+}

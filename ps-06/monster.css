@@ -1,0 +1,33 @@
+#monster {
+  font-family: Mountains of Christmas;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #800000;
+}
+
+#wolf {
+  font-family: Mountains of Christmas;
+  margin-top: .2%;
+  margin-left: 5%;
+  font-size: 1em;
+  line-height: .3;
+}
+
+#myMonster {
+
+}
+
+a:link {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800000;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #800000;
+}
