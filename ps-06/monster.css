@@ -1,6 +1,6 @@
 #monster {
   font-family: Mountains of Christmas;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 5%;
   color: #800000;
 }
@@ -14,7 +14,8 @@
 }
 
 #myMonster {
-
+  background-color: #000000;
+  margin-left: 25%;
 }
 
 a:link {
