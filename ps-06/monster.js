@@ -16,11 +16,11 @@ brileeweaver.drawHead = function(ctx) {
 };
 
 brileeweaver.drawBody = function(ctx) {
-  drawImage('//brileeweaver.github.io/2016-SWC/ps-06/MonsterBody.jpg', ctx, 0, 0);
+  drawImage('//brileeweaver.github.io/2016-SWC/ps-06/MonsterBody.jpg', ctx, 0, 240);
 };
 
 brileeweaver.drawFeet = function(ctx) {
-  drawImage('//brileeweaver.github.io/2016-SWC/ps-06/MonsterFeet.jpg', ctx, 0, 0);
+  drawImage('//brileeweaver.github.io/2016-SWC/ps-06/MonsterFeet.jpg', ctx, 0, 480);
 };
 
 brileeweaver.drawCorpse = function(ctx) {
@@ -30,3 +30,5 @@ brileeweaver.drawCorpse = function(ctx) {
 };
 
 window.brileeweaver = brileeweaver;
+
+window.brileeweaver.drawCorpse(ctx);
