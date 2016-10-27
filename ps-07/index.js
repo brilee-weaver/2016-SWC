@@ -13,7 +13,7 @@ var drawImage = function(filename, ctx, x, y) {
 }
 
 brileeweaver.drawPic = function(ctx) {
-  drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/Slot.png", ctx, 0, 0);
+  drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/machine.png", ctx, 0, 0);
 };
 
 
