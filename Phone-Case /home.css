@@ -12,13 +12,28 @@ body {
   display: inline-block;
 }
 
+#brand {
+  font-family: Indie Flower;
+  font-size: 3em;
+  margin-top: -20px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+#logo {
+  margin-left: 10px;
+
+}
+
 #menu {
   float: right;
   text-align: right;
   display: inline-block;
+  margin-top: 145px;
 }
 
 #product {
+  margin-top: 5px;
   width: 1425px;
   height: 500px;
   background-color: #556B2F;
@@ -29,6 +44,7 @@ body {
 
 #goodbye {
  margin-left: 25px;
+ margin-top: 5px;
 }
 
 #hello {
@@ -38,7 +54,7 @@ body {
 }
 
 #track {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 1425px;
   height: 500px;
   background-color: #C4C4C4;
