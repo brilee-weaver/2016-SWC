@@ -37,15 +37,17 @@ body {
 
 #contact{
   background-color: #E5E5E5;
-  height:350px;
-  width: 1375px;
-  margin-left: 10px;
+  height:300px;
+  width: 1300px;
+  margin-left: 50px;
   margin-top: 25px;
   padding-left: 30px;
   padding-top:50px;
   font-size: 2em;
   color: #006400;
   font-family: Open Sans Condensed;
+  border: 1px solid #006400;
+  font-weight: bold;
 }
 
 a:link {

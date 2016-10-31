@@ -17,7 +17,7 @@ body {
   font-family: Cedarville Cursive;
   font-size: 3em;
   margin-top: 35px;
-  margin-left: 50px;
+  margin-left: 80px;
   display: inline-block;
   color: #006400;
 }
@@ -101,8 +101,10 @@ body {
 }
 
 .phone {
-  color: #6B8E23;
+  color: #006400;
   padding-left: 40px;
+  font-weight: bold;
+  font-family: Open Sans Condensed;
   font-weight: bold;
 }
 
