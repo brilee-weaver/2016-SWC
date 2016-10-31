@@ -20,9 +20,31 @@ body {
 
 #product {
   width: 1425px;
-  height: 300px;
+  height: 500px;
+  background-color: #556B2F;
+  font-family: Open Sans Condensed;
+  font-size: 2em;
+  color: #E5E5E5;
+}
+
+#goodbye {
+ margin-left: 25px;
+}
+
+#hello {
+  float: right;
+  margin-right: 25px;
+  margin-top: 375px;
+}
+
+#track {
+  margin-top: 10px;
+  width: 1425px;
+  height: 500px;
   background-color: #C4C4C4;
 }
+
+
 
 a:link {
   color: #556B2F;
