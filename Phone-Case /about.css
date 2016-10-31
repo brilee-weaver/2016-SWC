@@ -17,7 +17,7 @@ body {
   font-family: Cedarville Cursive;
   font-size: 3em;
   margin-top: 35px;
-  margin-left: 50px;
+  margin-left: 80px;
   display: inline-block;
   color: #006400;
 }
@@ -36,39 +36,43 @@ body {
 }
 
 #product {
-   width: 1425px;
+   width: 1350px;
    height: 350px;
    background-color: #6B8E23;
    font-family: Open Sans Condensed;
    padding-top: 30px;
    margin-top: 12px;
+   margin-left: 50px;
 }
 
 #solar {
-  width: 1425px;
+  width: 1350px;
   height: 350px;
   background-color: #008000;
   font-family: Open Sans Condensed;
   padding-top: 30px;
   margin-top: 12px;
+  margin-left: 50px;
 }
 
 #plastic {
-  width: 1425px;
+  width: 1350px;
   height: 350px;
   background-color: #006400;
   font-family: Open Sans Condensed;
   padding-top: 30px;
   margin-top: 12px;
+  margin-left: 50px;
 }
 
 #track {
-  width: 1425px;
+  width: 1350px;
   height: 350px;
   background-color: #E5E5E5;
   font-family: Open Sans Condensed;
   padding-top: 30px;
   margin-top: 12px;
+  margin-left: 50px;
 }
 
 #promise {
