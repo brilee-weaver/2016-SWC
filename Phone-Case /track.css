@@ -10,7 +10,6 @@ body {
   font-family: Open Sans Condensed;
   font-size: 1.25em;
   display: inline-block;
-  border: 1px solid #006400;
 }
 
 #brand {
@@ -33,51 +32,6 @@ body {
   display: inline-block;
   margin-top: 145px;
   margin-right: 20px;
-}
-
-#product {
-  margin-top: 15px;
-  width: 1425px;
-  height: 500px;
-  background-color: #006400;
-  font-family: Open Sans Condensed;
-  font-size: 2em;
-  color: #E5E5E5;
-}
-
-#goodbye {
- margin-left: 25px;
- margin-top: 5px;
-}
-
-#hello {
-  float: right;
-  margin-right: 25px;
-  margin-top: 375px;
-}
-
-#track {
-  margin-top: 5px;
-  width: 1425px;
-  height: 500px;
-  background-color: #C4C4C4;
-}
-
-#send {
-  color: #006400;
-  font-family: Open Sans Condensed;
-  font-size: 2em;
-  margin-left: 25px;
-  margin-top: 12px;
-}
-
-#enter {
-  color: #006400;
-  font-family: Open Sans Condensed;
-  margin-top: 390px;
-  float:right;
-  margin-right: 20px;
-  font-size: 1.25em;
 }
 
 a:link {

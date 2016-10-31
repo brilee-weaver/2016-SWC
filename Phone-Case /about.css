@@ -10,6 +10,7 @@ body {
   font-family: Open Sans Condensed;
   font-size: 1.25em;
   display: inline-block;
+  border: 1px solid #006400;
 }
 
 #brand {
@@ -32,6 +33,58 @@ body {
   display: inline-block;
   margin-top: 145px;
   margin-right: 20px;
+}
+
+#product {
+   width: 1425px;
+   height: 350px;
+   background-color: #6B8E23;
+   font-family: Open Sans Condensed;
+   padding-top: 30px;
+   margin-top: 12px;
+}
+
+#solar {
+  width: 1425px;
+  height: 350px;
+  background-color: #008000;
+  font-family: Open Sans Condensed;
+  padding-top: 30px;
+  margin-top: 12px;
+}
+
+#plastic {
+  width: 1425px;
+  height: 350px;
+  background-color: #006400;
+  font-family: Open Sans Condensed;
+  padding-top: 30px;
+  margin-top: 12px;
+}
+
+#track {
+  width: 1425px;
+  height: 350px;
+  background-color: #E5E5E5;
+  font-family: Open Sans Condensed;
+  padding-top: 30px;
+  margin-top: 12px;
+}
+
+#promise {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #067518;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  color: #F5F5F5;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 a:link {
