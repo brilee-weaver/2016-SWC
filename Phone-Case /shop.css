@@ -12,23 +12,39 @@ body {
   display: inline-block;
 }
 
+#brand {
+  font-family: Cedarville Cursive;
+  font-size: 3em;
+  margin-top: 35px;
+  margin-left: 50px;
+  display: inline-block;
+  color: #006400;
+}
+
+#logo {
+  margin-left: 10px;
+  float: left;
+}
+
 #menu {
   float: right;
   text-align: right;
   display: inline-block;
+  margin-top: 145px;
+  margin-right: 20px;
 }
 
 a:link {
-  color: #556B2F;
+  color: #006400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #556B2F;
+  color: #006400;
   font-weight: bold;
 }
 
 a:visited {
-  color: #556B2F;
+  color: #006400;
   text-decoration: line-through;
 }

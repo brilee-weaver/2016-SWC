@@ -16,7 +16,7 @@ body {
   font-family: Cedarville Cursive;
   font-size: 3em;
   margin-top: 35px;
-  margin-left: 30px;
+  margin-left: 50px;
   display: inline-block;
   color: #006400;
 }
@@ -31,10 +31,11 @@ body {
   text-align: right;
   display: inline-block;
   margin-top: 145px;
+  margin-right: 20px;
 }
 
 #product {
-  margin-top: 8px;
+  margin-top: 15px;
   width: 1425px;
   height: 500px;
   background-color: #006400;
@@ -55,13 +56,28 @@ body {
 }
 
 #track {
-  margin-top: 8px;
+  margin-top: 5px;
   width: 1425px;
   height: 500px;
   background-color: #C4C4C4;
 }
 
+#send {
+  color: #006400;
+  font-family: Open Sans Condensed;
+  font-size: 2em;
+  margin-left: 25px;
+  margin-top: 12px;
+}
 
+#enter {
+  color: #006400;
+  font-family: Open Sans Condensed;
+  margin-top: 390px;
+  float:right;
+  margin-right: 20px;
+  font-size: 1.25em;
+}
 
 a:link {
   color: #006400;
