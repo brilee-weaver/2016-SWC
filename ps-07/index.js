@@ -18,11 +18,11 @@ brileeweaver.drawSlot = function(ctx) {
 
 
 brileeweaver.drawMachine = function(ctx) {
-  brileeweaver.drawPic(ctx);
+  brileeweaver.drawSlot(ctx);
 };
 
 brileeweaver.drawLight = function(ctx) {
-    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/green_light.png", ctx, 250, 0);
+    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/green_light.png", ctx, 240, 0);
 }
 
 brileeweaver.drawGreen = function(ctx) {
