@@ -20,7 +20,7 @@ brileeweaver.drawMachine = function(ctx) {
 };
 
 brileeweaver.drawLight = function(ctx) {
-    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/Light.png", ctx, 260, 5);
+    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/Green.png", ctx, 260, 5);
 };
 
 brileeweaver.drawGreen = function(ctx) {
