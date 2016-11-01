@@ -20,7 +20,7 @@ brileeweaver.drawMachine = function(ctx) {
 };
 
 brileeweaver.drawLight = function(ctx) {
-    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/light.png", ctx, 240, 5);
+    drawImage("https://brileeweaver.github.io/2016-SWC/ps-07/Light.png", ctx, 260, 5);
 };
 
 brileeweaver.drawGreen = function(ctx) {
@@ -37,7 +37,7 @@ brileeweaver.drawWinnings = function(ctx){
 
 function keyDown(evt) {
   console.log("key down!");
-  brileeweaver.drawWinnings(ctx);
+  brileeweaver.drawGreen(ctx);
   brileeweaver.drawChange(ctx);
 }
 
