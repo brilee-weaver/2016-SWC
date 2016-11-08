@@ -23,32 +23,32 @@ var clearScreen = function() {
   ctx.fillStyle = "hsla(0,10%,0%,0.6)";
   ctx.fillRect(0,0,600,400);
 };
+
 var drawDot = function (x, y) {
   clearScreen();
   var size = 20;
-  velocityX = 21;
   ctx.fillStyle = "red"
   ctx.strokeStyle = ''
-  beginX = beginX + velocityX;
-  if(beginX > 580) {
+
+  if(beginX > 580 && beginY < 21) {
     velocityX = 0;
     velocityY = 21;
-    beginX = 580;
-    beginY = beginY + velocityY;
   }
-  if (beginY > 380) {
+  if (beginX > 580 && beginY > 350) {
     velocityX = -21;
     velocityY = 0;
-    beginX = beginX + velocityX;
-    beginY = 380;
   }
-  if (beginX < 20) {
+  if (beginX < 21 && beginY > 350) {
     velocityX = 0;
     velocityY = -21;
-    beginX = 20;
-    beginY = beginY + velocityY;
+  }
+  if (beginX < 21 && beginY < 21) {
+    velocityY = 0;
+    velocityX = 21;
   }
 
+  beginX = beginX + velocityX;
+  beginY = beginY + velocityY;
   ctx.fillRect(beginX, beginY, size, size);
 };
 
