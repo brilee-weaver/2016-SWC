@@ -4,9 +4,18 @@ body {
 
 h1 {
   font-family: Shrikhand;
-  margin-top: 5%;
+  margin-top: 6.25%;
   margin-left: 5%;
   color: #002533;
+}
+
+#head {
+  line-height: .3;
+}
+
+p {
+  margin-left: 5%;
+  font-family: Montserrat;
 }
 
 #solutions {
