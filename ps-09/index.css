@@ -1,0 +1,39 @@
+body {
+  background-color: #F8F8FF;
+}
+
+h1 {
+  font-family: Shrikhand;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #002533;
+}
+
+#solutions {
+  width: 200px;
+  height: 80px;
+  margin-left: 15%;
+  margin-top: 3%;
+  padding-left: 50px;
+  padding-top: 20px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  border: .25px solid #dcdcdc;
+  line-height: .5;
+}
+
+
+a:link {
+  color: #005e80;
+  text-decoration:none;
+}
+
+a:hover {
+ color: #005e80;
+ font-weight: bold;
+}
+
+a:visited {
+   color: #002533;
+   text-decoration: line-through;
+}
