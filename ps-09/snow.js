@@ -1,25 +1,27 @@
 var ctx = document.getElementById("snow").getContext('2d');
-var height = 400;
-var width = 400;
-var points = [];
-var numPoints = 60;
 
 var drawImage = function(filename, ctx, x, y) {
   var img = document.createElement("img");
   img.src = filename;
   img.addEventListener("load", function() {
-    ctx.drawImage(img, 40, y);
+    ctx.drawImage(img, x, y);
   });
 }
 
 var drawTrees = function() {
-  clearScreen();
-  drawImage("https://brileeweaver.github.io/2016-SWC/ps-09/open.png", ctx, 0, 0);
+  clearScreen ();
+  drawImage("https://brileeweaver.github.io/2016-SWC/ps-09/tree.png", ctx, 0, 0);
 };
 
+var height = 400;
+var width = 400;
+var points = [];
+var numPoints = 60;
+
+
+
 var clearScreen = function() {
-  ctx.fillStyle = "hsla(0,0%,100%,0.1)";
-  ctx.fillRect(0, 0, 400, 400);
+  drawImage("https://brileeweaver.github.io/2016-SWC/ps-09/tree.png", ctx, 0, 0);
 };
 
 var wrap = function(point) {
@@ -66,7 +68,7 @@ var drawPoints = function() {
     var alph = point.y / 5 + 100;
     move(point);
     wrap(point);
-    ctx.fillStyle = makeColor(240, 100, 25, alph);
+    ctx.fillStyle = makeColor(240, 100, 100, alph);
     ctx.fillRect(point.x, point.y, point.size, point.size);
   }
   requestAnimationFrame(drawPoints);
@@ -86,5 +88,6 @@ var makePoints = function() {
   }
 };
 
+drawTrees();
 makePoints();
 requestAnimationFrame(drawPoints);
