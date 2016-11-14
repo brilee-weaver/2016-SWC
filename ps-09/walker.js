@@ -1,8 +1,9 @@
 var ctx = document.getElementById("walker").getContext('2d');
 
+var width = 400;
+var height = 400;
 var beginX = 0;
 var beginY = 0;
-
 var velocityX = 0;
 var velocityY = 0;
 
@@ -22,28 +23,34 @@ var drawDot = function (x, y) {
   ctx.fillStyle = makeColor(240, 100, 25, alph);
   ctx.strokeStyle = ''
 
-  if (beginX > 400 && beginY < 0){
-    velocityX = Math.random();
-    velocityY = Math.random();
+  var move = function(p) {
+    var speed = p.speed;
+    var direction = Math.random();
+    if (direction < 0.70) {
+      beginX = beginX + speed;
+    } else if (direction < 0.80) {
+      beginX = beginX - speed;
+    } else {
+      beginX = beginX + speed;
+    }
   }
 
-  if (beginX > 400 && beginY > 400) {
-    velocityX = Math.random();
-    velocityY = Math.random();
-  }
+  var wrap = function(point) {
+    if (beginX > width) {
+      beginX = 0;
+    }
+    if (beginY > height) {
+      beginX = 0;
+    }
+    if (beginY < 0) {
+      beginY = height;
+    }
+    if (beginX < 0){
+      beginX = width;
+    }
 
-  if (beginX < 0 && beginY < 400) {
-    velocityX = Math.random() * -15;
-    velocityY = Math.random();
-  }
+  };
 
-  if (beginX < 0 && beginY > 0) {
-    velocityX = Math.random();
-    velocityY = Math.random();
-  }
-
-  beginX = Math.random();
-  beginY = Math.random();
   ctx.fillRect(beginX, beginY, size, size);
 };
 

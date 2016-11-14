@@ -18,8 +18,6 @@ var width = 400;
 var points = [];
 var numPoints = 60;
 
-
-
 var clearScreen = function() {
   drawImage("https://brileeweaver.github.io/2016-SWC/ps-09/tree.png", ctx, 0, 0);
 };
@@ -47,11 +45,11 @@ var move = function(p) {
   var speed = p.speed;
   var direction = Math.random();
   if (direction < 0.70) {
-    p.y = p.y + speed;  // move DOWN
+    p.y = p.y + speed;  
   } else if (direction < 0.80) {
-    p.x = p.x - speed;  // LEFT
+    p.x = p.x - speed;
   } else {
-    p.x = p.x + speed; // RIGHT
+    p.x = p.x + speed;
   }
 }
 
