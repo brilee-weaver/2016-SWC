@@ -4,8 +4,7 @@ var width = 400;
 var height = 400;
 var beginX = 0;
 var beginY = 0;
-var velocityX = 0;
-var velocityY = 0;
+
 
 var clearScreen = function() {
   ctx.fillStyle = "hsla(0,10%,100%,0.6)";
@@ -23,19 +22,22 @@ var drawDot = function (x, y) {
   ctx.fillStyle = makeColor(240, 100, 25, alph);
   ctx.strokeStyle = ''
 
-  var move = function(p) {
-    var speed = p.speed;
+  var move = function() {
+    var speed = 5;
     var direction = Math.random();
     if (direction < 0.70) {
       beginX = beginX + speed;
-    } else if (direction < 0.80) {
+    } else if (direction < .80) {
       beginX = beginX - speed;
-    } else {
-      beginX = beginX + speed;
+    } else if (direction < .90) {
+      beginX = beginY + speed;
+    }
+    else {
+      beginX = beginY - speed;
     }
   }
 
-  var wrap = function(point) {
+  var wrap = function() {
     if (beginX > width) {
       beginX = 0;
     }
@@ -50,10 +52,10 @@ var drawDot = function (x, y) {
     }
 
   };
-
+  move();
+  wrap();
   ctx.fillRect(beginX, beginY, size, size);
 };
 
 drawDot(ctx);
-
 setInterval(drawDot, 100);
