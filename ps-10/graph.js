@@ -52,8 +52,6 @@ svg.append("text")
   .style("text-anchor", "middle")
   .text("Year");
 
-
-
 var svg = d3.select("#svg");
 svg.selectAll("circle")
 .data(popVote)
