@@ -25,7 +25,7 @@ var svg = d3.select("body")
     .range([margin.left, width - margin.right]);
 
   var yScale = d3.scaleLinear()
-    .domain([50000, 55000, 60000, 65000, 70000])
+    .domain([50000, 70000])
     .range([height - margin.bottom, margin.top]);
 
   var xAxis = svg.append("g")
