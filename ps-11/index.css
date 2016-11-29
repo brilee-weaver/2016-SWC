@@ -1,0 +1,48 @@
+body {
+  background-color: #EEFBFE;
+}
+
+h1 {
+  font-family: Shrikhand;
+  margin-top: 6.25%;
+  margin-left: 5%;
+  color: #002533;
+}
+
+#head {
+  line-height: .3;
+}
+
+p {
+  margin-left: 5%;
+  font-family: Montserrat;
+}
+
+.solution {
+  width: 150px;
+  height: 80px;
+  margin-left: 15%;
+  margin-top: 3%;
+  padding-left: 15px;
+  padding-top: 15px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  border: .25px solid #dcdcdc;
+  line-height: .5;
+}
+
+
+a:link {
+  color: #005e80;
+  text-decoration:none;
+}
+
+a:hover {
+ color: #005e80;
+ font-weight: bold;
+}
+
+a:visited {
+   color: #002533;
+   text-decoration: line-through;
+}
