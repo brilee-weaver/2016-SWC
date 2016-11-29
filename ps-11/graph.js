@@ -7,8 +7,7 @@ var margin = {top: 40,
               bottom: 75,
 };
 
-var svg = d3.select("body")
-	.append("svg")
+var svg = d3.select("svg")
   .attr("width", width)
   .attr("height", height);
 
