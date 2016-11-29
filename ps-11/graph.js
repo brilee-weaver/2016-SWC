@@ -2,9 +2,9 @@ var width = 600;
 var height = 600;
 
 var margin = {top: 40,
-							left: 60,
+							left: 75,
               right: 40,
-              bottom: 50,
+              bottom: 75,
 };
 
 var svg = d3.select("body")
@@ -43,8 +43,7 @@ var circles = svg.selectAll("circle")
     .attr("cx", function(d) {return xScale(d.x);})
     .attr("cy", function(d) {return yScale(d.y);})
     .attr("r", 3)
-    .on("mouseover", biggen)
-    .on("mouseout", smallen);
+     .attr("fill", "blue")
 
 svg.append("text")
   .attr("transform", "rotate(-90)")
