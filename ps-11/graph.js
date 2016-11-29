@@ -21,7 +21,7 @@ var svg = d3.select("body")
   ];
 
   var xScale = d3.scaleBand()
-    .domain([1996, 2000, 2004, 2008, 2012,2016])
+    .domain([1996, 2000, 2004, 2008, 2012, 2016])
     .range([margin.left, width - margin.right]);
 
   var yScale = d3.scaleLinear()
