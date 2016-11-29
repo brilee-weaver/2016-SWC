@@ -32,3 +32,9 @@ a:visited {
    color: #002533;
    text-decoration: line-through;
 }
+
+svg {
+  background-color: white;
+  border: 1px solid #002533;
+  margin-left: 25%;
+}
