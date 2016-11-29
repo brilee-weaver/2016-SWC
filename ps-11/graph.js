@@ -2,7 +2,7 @@ var width = 600;
 var height = 600;
 
 var margin = {top: 40,
-							left: 75,
+							left: 85,
               right: 40,
               bottom: 75,
 };
