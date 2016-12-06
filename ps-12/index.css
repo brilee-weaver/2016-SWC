@@ -1,9 +1,25 @@
 #booth {
-  position: fixed;
-  margin-left: -2%;
+  margin-top: -5%;
 }
 
 #voted {
-  font-size: 3em;
-  margin-top: -300px;
+  font-size: 6em;
+  margin-top: -800px;
+  margin-left: 100px;
+  color: white;
+}
+
+#count {
+  font-size: 6em;
+  margin-top: 330px;
+  margin-left: 800px;
+  color: white;
+}
+
+#intro {
+  width: 500px;
+  height: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
 }
