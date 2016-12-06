@@ -1,5 +1,9 @@
-#democracy {
-  width: 800px;
-  height:450px;
+#booth {
   position: fixed;
+  margin-left: -2%;
+}
+
+#voted {
+  font-size: 3em;
+  margin-top: -300px;
 }
