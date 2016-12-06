@@ -23,19 +23,24 @@
   color: white;
 }
 
+#photo {
+  margin-top: 220px;
+  margin-left: 1235px;
+}
+
 #intro {
   width: 500px;
-  height: 300px;
+  height: 800px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
   margin-left: 400px;
-  margin-top: 225px;
+  margin-top: 15px;
 
 }
 
 #heading {
   color: red;
-  font-size: 2em;
+  font-size: 3em;
   margin-left: -80px;
 }
