@@ -100,8 +100,26 @@ p {
     margin-top: 5px;
 }
 
+#hillary {
+  margin-top: 100px;
+}
+
 #woman {
   margin-left: 1235px;
   margin-top: -25px;
   color: white;
+}
+
+#break {
+  float: left;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: -225px;
+}
+
+#jones {
+  float: right;
+  display: inline-block;
+  margin-right:150px;
+  margin-top: -225px;
 }
