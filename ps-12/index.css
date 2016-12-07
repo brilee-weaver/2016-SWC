@@ -2,6 +2,10 @@
   margin-top: -1%;
 }
 
+p {
+  color: #0C0843;
+}
+
 #byline {
   color: white;
   font-size: 1.5em;
@@ -78,4 +82,10 @@
   margin-top: -225px;
   margin-left: 400px;
   display:inline-block;
+}
+
+#size {
+  background-color: #F9F8F2;
+  margin-top: -150px;
+  margin-left: 350px;
 }
