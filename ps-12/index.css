@@ -1,3 +1,7 @@
+body {
+  font-family: Crete Round;
+}
+
 #booth {
   margin-top: -1%;
 }
@@ -10,7 +14,7 @@ p {
   color: white;
   font-size: 1.5em;
   margin-left: 1170px;
-  margin-top: -135px;
+  margin-top: -145px;
 }
 
 #voted {
@@ -22,14 +26,14 @@ p {
 
 #count {
   font-size: 8em;
-  margin-top: 350px;
-  margin-left: 700px;
+  margin-top: 330px;
+  margin-left: 680px;
   color: white;
 }
 
 #photo {
   margin-top: 190px;
-  margin-left: 1235px;
+  margin-left: 1220px;
 }
 
 #intro {
@@ -40,6 +44,7 @@ p {
   padding-top: 30px;
   margin-left: 400px;
   margin-top: 15px;
+  margin-bottom: 100px;
 
 }
 
@@ -50,7 +55,7 @@ p {
 }
 
 #sign {
-  margin-left: 1235px;
+  margin-left: 1220px;
   margin-top: -30px;
 }
 
@@ -105,7 +110,7 @@ p {
 }
 
 #woman {
-  margin-left: 1235px;
+  margin-left: 1220px;
   margin-top: -25px;
   color: white;
 }
