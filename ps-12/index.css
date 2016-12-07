@@ -115,6 +115,7 @@ p {
   display: inline-block;
   margin-left: 150px;
   margin-top: -225px;
+  text-align: center;
 }
 
 #jones {
@@ -122,4 +123,5 @@ p {
   display: inline-block;
   margin-right:150px;
   margin-top: -225px;
+  text-align: center;
 }
