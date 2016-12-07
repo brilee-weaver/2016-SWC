@@ -22,11 +22,11 @@ var xScale = d3.scaleBand()
   .range([height - margin.bottom, margin.top]);
 
 var yScale = d3.scaleLinear()
-  .domain([60,65])
+  .domain([60, 61, 62, 63 64, 65])
   .range([height-margin.bottom, margin-top]);
 
 var xAxis = svg.append("g")
-  .attr("transform", "translate(0,"+ height-margin.bottom)+")")
+  .attr("transform", "translate(0,"+ (height-margin.bottom)+")")
   .call(d3.axisBottom().scale(xScale));
 
 var yAxis = svg.append("g")
@@ -45,6 +45,6 @@ var bars = svg.selectAll("rect")
       return yScale(d.y);
     })
     .attr("width", barWidth)
-    .attr("hieght", function(d) {
+    .attr("height", function(d) {
       return height - margin.bottom - yScale(d.y);
     });
