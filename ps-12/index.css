@@ -89,3 +89,19 @@ p {
   margin-top: -150px;
   margin-left: 350px;
 }
+
+#ahead {
+    width: 500px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+
+#woman {
+  margin-left: 1235px;
+  margin-top: -25px;
+  color: white;
+}
