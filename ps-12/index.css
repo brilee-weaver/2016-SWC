@@ -130,3 +130,10 @@ p {
   margin-top: -225px;
   text-align: center;
 }
+
+#bottom {
+  display: inline-block;
+  line-height: .3;
+  font-size: .75em;
+  margin-left: 600px;
+}
