@@ -61,7 +61,7 @@ p {
 
 #compare {
   background-color: #F9F8F2;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-left: 120px;
   display: inline-block;
   float: left;
@@ -70,7 +70,7 @@ p {
 #explain {
   width: 600px;
   height: 600px;
-  margin-top: 150px;
+  margin-top: 120px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
@@ -84,7 +84,7 @@ p {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
-  margin-top: -225px;
+  margin-top: -150px;
   margin-left: 400px;
   display:inline-block;
 }
@@ -136,4 +136,17 @@ p {
   line-height: .3;
   font-size: .75em;
   margin-left: 600px;
+}
+
+a:link {
+  color: #FE0808;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #0C0843;
 }
