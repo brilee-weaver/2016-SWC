@@ -1,3 +1,5 @@
+// bar graph, left side
+
 var width=500;
 var height=500;
 
@@ -8,7 +10,7 @@ var margin = {
   bottom: 10,
 };
 
-var svg = d3.select("body")
+var svg = d3.select("compare")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -22,18 +24,18 @@ var xScale = d3.scaleBand()
   .range([height - margin.bottom, margin.top]);
 
 var yScale = d3.scaleLinear()
-  .domain([60, 61, 62, 63 64, 65])
-  .range([height-margin.bottom, margin-top]);
+  .domain([60, 61, 62, 63, 64, 65])
+  .range([height - margin.bottom, margin.top]);
 
 var xAxis = svg.append("g")
-  .attr("transform", "translate(0,"+ (height-margin.bottom)+")")
+  .attr("transform", "translate(0,"+ (height - margin.bottom)+")")
   .call(d3.axisBottom().scale(xScale));
 
 var yAxis = svg.append("g")
   .attr("transform","translate("+ margin.left +", 0)")
   .call(d3.axisLeft().scale(yScale));
 
-var barWidth = 150;
+var barWidth = 20;
 var bars = svg.selectAll("rect")
   .data(data)
   .enter()
@@ -49,26 +51,28 @@ var bars = svg.selectAll("rect")
       return height - margin.bottom - yScale(d.y);
     });
 
+// not sure how to transition to plot, middle center
 
-    var width = 700;
-    var height = 700;
+  var width = 700;
+  var height = 700;
 
-    var margin = {top: 40,
-    							left: 85,
-                  right: 40,
-                  bottom: 75,
+  var margin = {
+    top: 20,
+    left: 20,
+    right: 20,
+    bottom: 20,
     };
 
     var svg = d3.select("svg")
       .attr("width", width)
       .attr("height", height);
 
-
       var data = [
       	{x: 2000, y: 50456},
       	{x: 2004, y: 62041},
       	{x: 2008, y: 69499},
       	{x: 2012, y: 65916},
+        {x: 2016, y: 62896},
       ];
 
       var xScale = d3.scaleBand()
@@ -76,7 +80,7 @@ var bars = svg.selectAll("rect")
         .range([margin.left, width - margin.right]);
 
       var yScale = d3.scaleLinear()
-        .domain([50000, 70000])
+        .domain([50000, 55000, 60000, 65000, 70000])
         .range([height - margin.bottom, margin.top]);
 
       var xAxis = svg.append("g")
@@ -86,6 +90,9 @@ var bars = svg.selectAll("rect")
       var yAxis = svg.append("g")
         .attr("transform","translate(" + margin.left + ", 0)")
         .call(d3.axisLeft().scale(yScale));
+
+
+// so far I haven't been able to get the radius size to change according to the y value; would have liked to change color as well
 
     var circles = svg.selectAll("circle")
       .data(data)
