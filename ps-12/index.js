@@ -4,13 +4,13 @@ var width = 500;
 var height = 500;
 
 var margin = {
-  top: 10,
-  left: 10,
-  right: 10,
-  bottom: 10,
+  top: 75,
+  left: 75,
+  right: 50,
+  bottom: 50,
 };
 
-var svg = d3.select("compare")
+var svg = d3.select("svg")
   .append("svg")
   .attr("width", width)
   .attr("height", height);
@@ -30,7 +30,7 @@ var xScale = d3.scaleBand()
   .range([height - margin.bottom, margin.top]);
 
 var yScale = d3.scaleLinear()
-  .domain([60, 61, 62, 63, 64, 65])
+  .domain([60, 65])
   .range([height - margin.bottom, margin.top]);
 
 var xAxis = svg.append("g")
@@ -57,19 +57,32 @@ var bars = svg.selectAll("rect")
     return height - margin.bottom - yScale(d.y);
   });
 
+  svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", margin.left / 3)
+    .attr("x", 0 - (height / 2))
+    .style("text-anchor", "middle")
+    .text("popular vote count");
+
+  svg.append("text")
+    .attr("y", height - margin.bottom / 3)
+    .attr("x", width / 2)
+    .style("text-anchor", "middle")
+    .text("candidate");
+
 // not sure how to transition to plot, middle center
 
-var width = 500;
-var height = 500;
+var width = 800;
+var height = 800;
 
 var margin = {
   top: 20,
-  left: 20,
+  left: 80,
   right: 20,
-  bottom: 20,
+  bottom: 70,
 };
 
-var svg = d3.select("svg")
+var svg = d3.select("#svg")
   .attr("width", width)
   .attr("height", height);
 
