@@ -1,5 +1,3 @@
-// bar graph, left side
-
 var width = 500;
 var height = 500;
 
@@ -41,7 +39,7 @@ var yAxis = svg.append("g")
   .attr("transform", "translate(" + margin.left + ", 0)")
   .call(d3.axisLeft().scale(yScale));
 
-var barWidth = 20;
+var barWidth = 50;
 var bars = svg.selectAll("rect")
   .data(data)
   .enter()
@@ -70,7 +68,6 @@ var bars = svg.selectAll("rect")
     .style("text-anchor", "middle")
     .text("candidate");
 
-// not sure how to transition to plot, middle center
 
 var width = 800;
 var height = 800;
@@ -104,11 +101,11 @@ var data = [{
 }, ];
 
 var xScale = d3.scaleBand()
-  .domain([1996, 2000, 2004, 2008, 2012, 2016])
+  .domain([1996,2000, 2004, 2008, 2012, 2016])
   .range([margin.left, width - margin.right]);
 
 var yScale = d3.scaleLinear()
-  .domain([50000, 55000, 60000, 65000, 70000])
+  .domain([50000, 70000])
   .range([height - margin.bottom, margin.top]);
 
 var xAxis = svg.append("g")
@@ -119,7 +116,7 @@ var yAxis = svg.append("g")
   .attr("transform", "translate(" + margin.left + ", 0)")
   .call(d3.axisLeft().scale(yScale));
 
-// so far I haven't been able to get the radius size to change according to the y value; would have liked to change color as well
+
 
 var circles = svg.selectAll("circle")
   .data(data)
@@ -131,7 +128,7 @@ var circles = svg.selectAll("circle")
   .attr("cy", function(d) {
     return yScale(d.y);
   })
-  .attr("r", 3)
+  .attr("r", 10)
   .attr("fill", "blue")
 
 svg.append("text")
